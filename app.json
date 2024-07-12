@@ -1,7 +1,7 @@
 {
-  "name": "Snow Renamer Bot",
+  "name": "TG File Renamer Bot",
   "description": "Telegram File Renamer Bot ",
-  "logo": "https://graph.org/file/f47f124a14461141f7b26.jpg",
+  "logo": "https://graph.org/file/75419be3947294926c0dd.jpg",
   "keywords": [
     "Renamer Bot",
     "Mongo DB",
@@ -10,7 +10,7 @@
     "Rename",
     "File Rename"
   ],
-  "repository": "https://github.com/Ahmed789l/4gb-rename-bot-sagato",
+  "repository": "https://github.com/GamerBhai02/4gb-rename-bot",
   "success_url": "",
   "stack": "container",
   "env": {
@@ -52,19 +52,19 @@
 
     "FORCE_SUB": {
       "description": "Your force sub channel user name without [@] ",
-      "value": "straw_hat_bots",
+      "value": "gamerbhai02bots",
       "required": true
     },
 
     "ADMIN": {
       "description": "Add Your User ID multiple is use space to split",
-      "value": "6727550037 5660025305 7162615398 5961139833",
+      "value": "",
       "required": true
     },
 
     "LOG_CHANNEL": {
       "description": "Bot Log Sending Channel (just create a private channel and add bot to admin and take channel id to add this variable) ⚠️ id startswith -100 must",
-      "value": "-1002031978775",
+      "value": "-1001583148608",
       "required": true
     },
 
