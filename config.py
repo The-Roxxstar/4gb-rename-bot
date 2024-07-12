@@ -48,7 +48,7 @@ class Txt(object):
 • ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/GamerBhai02>Abu Talha Ansari</a>
 • ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/GamerBhai02Bots>GamerBhai02 Bots</a>
 • ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/https://t.me/+ZUyhAwBNBsU0YjA9>sᴜᴘᴘᴏʀᴛ</a>
-• ᴍʏ ᴏᴡɴᴇʀ / ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GamerBhai02Bots>GamerBhai02 Bots</a>
+• ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/GamerBhai02Bots>GamerBhai02 Bots</a>
 ╰───────────────⍟ """
 
     HELP_TXT = """
