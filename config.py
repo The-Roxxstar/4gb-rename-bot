@@ -17,17 +17,17 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "straw_hat_database")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00001")  # ⚠️ Required
+    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/a79b5c323865b6760be36.jpg")
+    START_PIC = os.environ.get("START_PIC", "")
     ADMIN = [int(admin) if id_pattern.search(
         admin) else admin for admin in os.environ.get('ADMIN', '').split()]  # ⚠️ Required
     
-    FORCE_SUB = os.environ.get("FORCE_SUB", "Straw_Hat_Bots") # ⚠️ Required Username without @
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002031978775"))  # ⚠️ Required
+    FORCE_SUB = os.environ.get("FORCE_SUB", "") # ⚠️ Required Username without @
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))  # ⚠️ Required id from -100
     FLOOD = int(os.environ.get("FLOOD", '15'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
@@ -40,15 +40,15 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """<b>Hɪ {} ♡゙,\n\n◈ I Aᴍ A Pᴏᴡᴇʀғᴜʟ Fɪʟᴇ Rᴇɴᴀᴍᴇʀ Bᴏᴛ.
-◈ I Cᴀɴ Rᴇɴᴀᴍᴇ Fɪʟᴇs ᴜᴘᴛᴏ 4GB, Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟs, Cᴏɴᴠᴇʀᴛ Bᴇᴛᴡᴇᴇɴ Vɪᴅᴇᴏ Aɴᴅ Fɪʟᴇ, Aɴᴅ Sᴜᴘᴘᴏʀᴛ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟs Aɴᴅ Cᴀᴘᴛɪᴏɴs.\n\n• Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @Straw_Hat_Bots
+◈ I Cᴀɴ Rᴇɴᴀᴍᴇ Fɪʟᴇs ᴜᴘᴛᴏ 4GB, Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟs, Cᴏɴᴠᴇʀᴛ Bᴇᴛᴡᴇᴇɴ Vɪᴅᴇᴏ Aɴᴅ Fɪʟᴇ, Aɴᴅ Sᴜᴘᴘᴏʀᴛ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟs Aɴᴅ Cᴀᴘᴛɪᴏɴs.\n\n• Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @GamerBhai02
 """
 
     ABOUT_TXT = """<b>╭───────────⍟
 • ᴍy ɴᴀᴍᴇ : {}
-• ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Urr_Sanjii>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a>
-• ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/Straw_Hat_bots>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ 𝐁ᴏᴛs</a>
-• ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Straw_hat_support>sᴜᴘᴘᴏʀᴛ</a>
-• ᴍʏ ᴏᴡɴᴇʀ / ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Straw_Hat_Bots>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs </a>
+• ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/GamerBhai02>Abu Talha Ansari</a>
+• ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/GamerBhai02Bots>GamerBhai02 Bots</a>
+• ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/https://t.me/+ZUyhAwBNBsU0YjA9>sᴜᴘᴘᴏʀᴛ</a>
+• ᴍʏ ᴏᴡɴᴇʀ / ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GamerBhai02Bots>GamerBhai02 Bots</a>
 ╰───────────────⍟ """
 
     HELP_TXT = """
